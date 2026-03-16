@@ -237,13 +237,13 @@ function Menu() {
               <span className="bg-white/20 px-2 py-0.5 rounded-full text-[10px] md:text-xs font-bold uppercase tracking-widest">
                 Starting at
               </span>
-              <div className="flex items-baseline gap-1 mt-1 mb-3">
+              <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1 mt-1 mb-3">
                 {/* Reduced price font for mobile (text-3xl) */}
                 <span className="text-3xl md:text-5xl font-black">
                   ₹{menuData[activeTab].price.split("/")[0]}
                 </span>
                 <span className="text-sm md:text-lg opacity-80">/plate</span>
-                <span className="text-xl md:text-4xl font-black">
+                <span className="text-sm md:text-xl font-bold block mt-1 opacity-90">
                   Minimum 50 Plates
                 </span>
               </div>
