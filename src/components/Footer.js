@@ -48,13 +48,13 @@ function Footer() {
             </h3>
             <div className="space-y-4 text-gray-400">
               <a
-                href="tel:+919999999999"
+                href="tel:+917569987446"
                 className="flex items-center gap-3 hover:text-white transition-colors"
               >
                 <span className="text-yellow-400">📞</span> +91 7569987446
               </a>
               <a
-                href="mailto:info@shriaryancaterers.com"
+                href="mailto:sacaterersandevents@gmail.com"
                 className="flex items-center gap-3 hover:text-white transition-colors"
               >
                 <span className="text-yellow-400">📧</span>{" "}
