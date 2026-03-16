@@ -26,7 +26,7 @@ function Contact() {
               <div className="grid grid-cols-1 gap-6">
                 {/* Phone Card */}
                 <a
-                  href="tel:+919999999999"
+                  href="tel:+917569987446"
                   className="flex items-center gap-5 p-4 rounded-2xl bg-gray-50 hover:bg-violet-50 transition-colors group"
                 >
                   <div className="w-14 h-14 bg-violet-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-violet-600 group-hover:text-white transition-all">
