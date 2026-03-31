@@ -41,7 +41,11 @@ function Navbar() {
       <div className="max-w-8xl mx-auto  flex justify-between items-center relative z-[1100]">
         {/* Logo */}
         <Link to="/" onClick={() => setMenuOpen(false)}>
-          <img className="w-12 h-12 " src="/Images/cat-logo.png"></img>
+          <img
+            className="w-12 h-12 "
+            src="/Images/cat-logo.png"
+            alt="Cat-logo"
+          ></img>
           {/*<h1 className="text-xl md:text-2xl font-black tracking-tighter text-white">
             SHRI ARYAN <span className="text-yellow-400">CATERERS</span>
           </h1>*/}

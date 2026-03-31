@@ -82,7 +82,6 @@ function Menu() {
           cat: "Sweets (Select 1)",
           list: [
             "Kaala Jamun",
-            ,
             "Gulab Jamun",
             "Double ka Meetha",
             "Kaddu ki Kheer",

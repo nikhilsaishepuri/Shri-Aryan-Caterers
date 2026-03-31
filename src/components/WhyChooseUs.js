@@ -28,13 +28,13 @@ function WhyChooseUs() {
       bgColor: "bg-purple-50",
       iconColor: "text-purple-600",
     },
-    {
+    /*{
       icon: "✅",
       title: "FSSAI Certified",
       desc: "Our catering services are officially certified by FSSAI, ensuring high food safety and quality standards.",
       bgColor: "bg-yellow-50",
       iconColor: "text-yellow-600",
-    },
+    }, */
   ];
 
   return (
@@ -59,7 +59,7 @@ function WhyChooseUs() {
         </div>
 
         {/* Features Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-5 gap-6 md:gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {features.map((item, index) => (
             <div
               key={index}
